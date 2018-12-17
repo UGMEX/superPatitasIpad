@@ -1,0 +1,299 @@
+@font-face {
+    font-family: Gloria;
+    src: url(/fonts/GloriaHallelujah.ttf);
+}
+
+@font-face {
+    font-family: Indie;
+    src: url(/fonts/IndieFlower.ttf);
+}
+
+.cabecera {
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.imagen-logo {
+    width: 50px;
+    height: auto;
+}
+
+.titulo-pagina {
+    font-family: Gloria;
+    text-align: center;
+    color: #F89400;
+    font-size: 25px;
+}
+
+.caja-botones-encabezado {
+    text-align: end;
+}
+
+.texto-buscar {
+    border: 1px solid #F89400;
+    color: #F89400;
+    border-radius: 10px 0px 0px 10px;
+}
+
+.texto-buscar::placeholder {
+    color: #F89400;
+}
+
+.btn-search {
+    background: #F89400;
+    text-align: center;
+    border: 1px solid #F89400;
+    border-radius: 0px 10px 10px 0px;
+}
+
+.btn-caja-lupa {
+    color: #ffffff;
+}
+
+.caja-buscar {
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.menu {
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.btn-lupa {
+    font-size: 20px;
+    color: #F89400;
+    margin-right: 5px;
+}
+
+.btn-menu {
+    font-size: 20px;
+    color: #F89400;
+}
+
+.rPequena {
+    background: #26ABC7;
+    text-align: center;
+}
+
+.rMediana {
+    background: #F89400;
+    text-align: center;
+}
+
+.rGrande {
+    background: #93B041;
+    text-align: center;
+}
+
+.rGigante {
+    background: #26ABC7;
+    text-align: center;
+}
+
+.adopcion {
+    background: #F89400;
+    text-align: center;
+}
+
+.enlace-menu {
+    font-size: 25px;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.enlace-menu:hover {
+    font-size: 25px;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.enlace-menu:active {
+    font-size: 25px;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.etiqueta-carrusel {
+    background: #93B041;
+    width: 150px;
+    height: 90px;
+    border-radius: 10px 10px 10px 10px;
+    position: relative;
+    left: 700px;
+    top: -100px;
+}
+
+.caja-tarjeta {
+    border: 1px solid #F89400;
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 5px 5px 2px rgba(0, 0, 0, .5);
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.titulo-ficha {
+    font-family: Indie;
+    font-size: 20px;
+    color: #F89400;
+    padding-top: 10px;
+}
+
+.imagen-tarjeta {
+    width: 30%;
+    height: 30%;
+    border: 1px solid #000000;
+}
+
+.caracteristicas-ficha {
+    color: #93B041;
+    font-family: Indie;
+    padding-left: 20px;
+    padding-top: 10px;
+    font-size: 20px;
+}
+
+.texto-calificacion-ficha {
+    color: #26ABC7;
+    font-family: Indie;
+    font-size: 20px;
+    display: block;
+}
+
+.estrellas-tarjetas {
+    color: #F89400;
+    font-family: Indie;
+    font-size: 20px;
+}
+
+.titulo-descripcion-tarjeta {
+    color: #F89400;
+    font-family: Indie;
+    font-size: 20px;
+}
+
+.texto-descripcion-tarjeta {
+    color: #93B041;
+    font-family: Indie;
+    font-size: 20px;
+    text-align: justify;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.boton-informacion-tarjeta {
+    background: #26ABC7;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 10px 10px 10px 10px;
+    font-size: 20px;
+    font-family: Indie;
+}
+
+.boton-informacion-tarjeta a {
+    color: #ffffff;
+}
+
+.enlances-inferior {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background: #707070;
+    color: #ffffff;
+    text-align: center;
+    font-family: Gloria;
+    font-size: 15px;
+}
+
+.enlances-inferior div div ul li {
+    list-style: none;
+}
+
+.enlances-inferior div div ul li a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.pie {
+    background: #F89400;
+    color: #ffffff;
+}
+
+.direccion {
+    padding-top: 10px;
+    font-size: 9px;
+    font-family: Gloria;
+}
+
+.derechos {
+    margin-top: 0px;
+    padding-bottom: 10px;
+    font-size: 9px;
+    text-align: center;
+    font-family: Gloria;
+}
+
+@media (min-width: 768px) {
+    .imagen-logo {
+        width: 150px;
+        height: auto;
+    }
+    .titulo-pagina {
+        font-size: 45px;
+    }
+    .btn-menu {
+        visibility: hidden;
+    }
+    .menu {
+        margin-top: 10px;
+        margin-bottom: 10px;
+        height: 48px;
+    }
+    .rPequena {
+        border-radius: 10px 10px 10px 10px;
+        margin-right: 10px;
+    }
+    .rMediana {
+        border-radius: 10px 10px 10px 10px;
+        margin-right: 10px;
+    }
+    .rGrande {
+        border-radius: 10px 10px 10px 10px;
+        margin-right: 10px;
+    }
+    .rGigante {
+        border-radius: 10px 10px 10px 10px;
+        margin-right: 10px;
+    }
+    .adopcion {
+        border-radius: 10px 10px 10px 10px;
+    }
+    .enlace-menu {
+        font-size: 15px;
+    }
+    .enlace-menu:hover {
+        font-size: 15px;
+    }
+    .enlace-menu:active {
+        font-size: 15px;
+    }
+    .caja-tarjeta {
+        margin-right: 20px;
+        margin-left: 20px;
+    }
+    .listado-final {
+        margin-right: 20px;
+        margin-left: 20px;
+    }
+    .direccion {
+        padding-top: 10px;
+        font-size: 15px;
+        font-family: Gloria;
+    }
+    .derechos {
+        margin-top: 0px;
+        padding-bottom: 10px;
+        font-size: 15px;
+        text-align: center;
+        font-family: Gloria;
+    }
+}

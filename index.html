@@ -1,0 +1,528 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/all.min.css">
+    <link rel="stylesheet" type="text/css" href="css/animate.min.css">
+    <link rel="stylesheet" href="css/estilos.css">
+    <script src="/js/jquery-3.3.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>Super Patitas</title>
+</head>
+
+<body class="container">
+    <header class="row align-items-center cabecera">
+
+        <div id="logo" class="col-2">
+            <img src="img/logo.png" alt="" class="imagen-logo">
+        </div>
+        <div id="titulo" class="col-7 ">
+            <h1 class="titulo-pagina">Súper Patitas</h1>
+        </div>
+
+        <div class="col-3 caja-botones-encabezado">
+            <i class="fas fa-search btn-lupa" data-toggle="collapse" data-target="#bloque-buscar" aria-expanded="false"></i>
+            <i class="fas fa-bars btn-menu" data-toggle="collapse" data-target="#menu-principal" aria-expanded="false"></i>
+        </div>
+    </header>
+    <div id="bloque-buscar" class="collapse row caja-buscar">
+        <input type="text" placeholder="Escribe tu busqueda" class="col-10 texto-buscar">
+        <div class="col-2 btn-search">
+            <i class="fas fa-search btn-caja-lupa"></i>
+        </div>
+    </div>
+    <nav id="menu-principal" class="collapse row justify-content-center align-items-center menu">
+        <div class="col-12 col-md-2 rPequena"> <a href="#" class="enlace-menu">Raza Pequeña</a></div>
+        <div class="col-12 col-md-2 rMediana"> <a href="#" class="enlace-menu">Raza Mediana</a></div>
+        <div class="col-12 col-md-2 rGrande"> <a href="#" class="enlace-menu">Raza Grande</a></div>
+        <div class="col-12 col-md-2 rGigante"> <a href="#" class="enlace-menu">Raza Gigante</a></div>
+        <div class="col-12 col-md-2 adopcion"> <a href="#" class="enlace-menu">En Adopción</a></div>
+    </nav>
+    <div class="container" id="slader">
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+
+
+            <div class=" carousel-inner">
+                <div class="carousel-item active">
+                    <img class="d-block w-100" src="/img/sabueso.jpg" alt="Sabueso">
+                    <div class="carousel-caption d-none d-md-block etiqueta-carrusel">
+                        <h5>Basset Hound</h5>
+                        <p>3 meses</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="/img/labrador-carr.jpg" alt="Labrador">
+                    <div class="carousel-caption d-none d-md-block etiqueta-carrusel">
+                        <h5>Labrador</h5>
+                        <p>6 meses</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="/img/chitzu-carr.jpg" alt="Shitzu">
+                    <div class="carousel-caption d-none d-md-block etiqueta-carrusel">
+                        <h5>shitzu</h5>
+                        <p>4 meses</p>
+                    </div>
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Anterior</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Siguiente</span>
+            </a>
+        </div>
+    </div>
+    <section class="container" id="tarjetas">
+        <div class="row">
+            <div class="col-12 col-md-5 caja-tarjeta wow bounceInLeft" id="tarjeta">
+                <div class="container">
+                    <div class="row col-12 justify-content-center">
+                        <h3 class="titulo-ficha">Basset Hound</h3>
+                    </div>
+                    <div class="row">
+                        <img src="img/basset.jpg" class="imagen-tarjeta" alt="">
+                        <p class="caracteristicas-ficha">Tamaño mediano.<br> Peso 18 a 27 Kg. <br> Origen Frances.</p>
+                    </div>
+                    <div id="calificacion" class="row texto-calificacion-ficha">
+                        Atención:
+                        <span class="estrellas-tarjetas">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </span> <br>Energía:
+                        <span class="estrellas-tarjetas">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </span><br> Obedencia:
+                        <span class="estrellas-tarjetas">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </span class="estrellas-tarjetas">
+                    </div>
+                       <h4 class="row justify-content-center titulo-descripcion-tarjeta">
+                           Descripción de la raza.
+                        </h4>
+                    <p class="row texto-descripcion-tarjeta">
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam id commodi eius dolor natus accusamus, eum distinctio at enim obcaecati.
+                    </p>
+                    <div class="row  justify-content-center ">
+                        <div class="col- 4 boton-informacion-tarjeta">
+                                   <a href="#"> Más Información</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+<div class="col-12 col-md-5 caja-tarjeta wow bounceInRight" id="tarjeta">
+                <div class="container">
+                    <div class="row col-12 justify-content-center">
+                        <h3 class="titulo-ficha">Beagle</h3>
+                    </div>
+                    <div class="row">
+                        <img src="img/beagle.jpg" class="imagen-tarjeta" alt="">
+                        <p class="caracteristicas-ficha">Tamaño mediano.<br> peso 9 a 11 Kg.<br> Origen: Inglaterra.</p>
+                    </div>
+                    <div id="calificacion" class="row texto-calificacion-ficha">
+                        Atención:
+                        <span class="estrellas-tarjetas">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </span> <br>Energía:
+                        <span class="estrellas-tarjetas">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </span><br> Obedencia:
+                        <span class="estrellas-tarjetas">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </span class="estrellas-tarjetas">
+                    </div>
+                    <h4 class="row justify-content-center titulo-descripcion-tarjeta">Descripción de la raza.</h4>
+                    <p class="row texto-descripcion-tarjeta">
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam id commodi eius dolor natus accusamus, eum distinctio at enim obcaecati.
+                    </p>
+                    <div class="row  justify-content-center ">
+                        <div class="col- 4 boton-informacion-tarjeta">
+                            <a href="#"> Más Información</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-5 caja-tarjeta wow bounceInLeft" id="tarjeta">
+                <div class="container">
+                    <div class="row col-12 justify-content-center">
+                        <h3 class="titulo-ficha">Chow Chow</h3>
+                    </div>
+                    <div class="row">
+                        <img src="img/chowchow.jpg" class="imagen-tarjeta" alt="">
+                        <p class="caracteristicas-ficha">Tamaño mediano.<br> peso 9 a 11 Kg.<br> Origen: Inglaterra.</p>
+                    </div>
+                    <div id="calificacion" class="row texto-calificacion-ficha">
+                        Atención:
+                        <span class="estrellas-tarjetas">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </span> <br>Energía:
+                        <span class="estrellas-tarjetas">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </span><br> Obedencia:
+                        <span class="estrellas-tarjetas">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </span class="estrellas-tarjetas">
+                    </div>
+                    <h4 class="row justify-content-center titulo-descripcion-tarjeta">Descripción de la raza.</h4>
+                    <p class="row texto-descripcion-tarjeta">
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam id commodi eius dolor natus accusamus,
+                        eum distinctio at enim obcaecati.
+                    </p>
+                    <div class="row  justify-content-center ">
+                        <div class="col- 4 boton-informacion-tarjeta">
+                            <a href="#"> Más Información</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-5 caja-tarjeta wow bounceInRight" id="tarjeta">
+                <div class="container">
+                    <div class="row col-12 justify-content-center">
+                        <h3 class="titulo-ficha">Husky</h3>
+                    </div>
+                    <div class="row">
+                        <img src="img/husky.jpg" class="imagen-tarjeta" alt="">
+                        <p class="caracteristicas-ficha">Tamaño mediano.<br> peso 9 a 11 Kg.<br> Origen: Inglaterra.</p>
+                    </div>
+                    <div id="calificacion" class="row texto-calificacion-ficha">
+                        Atención:
+                        <span class="estrellas-tarjetas">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </span> <br>Energía:
+                        <span class="estrellas-tarjetas">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </span><br> Obedencia:
+                        <span class="estrellas-tarjetas">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </span class="estrellas-tarjetas">
+                    </div>
+                    <h4 class="row justify-content-center titulo-descripcion-tarjeta">Descripción de la raza.</h4>
+                    <p class="row texto-descripcion-tarjeta">
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam id commodi eius dolor natus accusamus,
+                        eum distinctio at enim obcaecati.
+                    </p>
+                    <div class="row  justify-content-center ">
+                        <div class="col- 4 boton-informacion-tarjeta">
+                            <a href="#"> Más Información</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+<div class="col-12 col-md-5 caja-tarjeta wow bounceInLeft" id="tarjeta">
+                <div class="container">
+                    <div class="row col-12 justify-content-center">
+                        <h3 class="titulo-ficha">Labrador</h3>
+                    </div>
+                    <div class="row">
+                        <img src="img/labrador.jpg" class="imagen-tarjeta" alt="">
+                        <p class="caracteristicas-ficha">Tamaño mediano.<br> peso 9 a 11 Kg.<br> Origen: Inglaterra.</p>
+                    </div>
+                    <div id="calificacion" class="row texto-calificacion-ficha">
+                        Atención:
+                        <span class="estrellas-tarjetas">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </span> <br>Energía:
+                        <span class="estrellas-tarjetas">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </span><br> Obedencia:
+                        <span class="estrellas-tarjetas">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </span class="estrellas-tarjetas">
+                    </div>
+                    <h4 class="row justify-content-center titulo-descripcion-tarjeta">Descripción de la raza.</h4>
+                    <p class="row texto-descripcion-tarjeta">
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam id commodi eius dolor natus accusamus,
+                        eum distinctio at enim obcaecati.
+                    </p>
+                    <div class="row  justify-content-center ">
+                        <div class="col- 4 boton-informacion-tarjeta">
+                            <a href="#"> Más Información</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+<div class="col-12 col-md-5 caja-tarjeta wow bounceInRight" id="tarjeta">
+                <div class="container">
+                    <div class="row col-12 justify-content-center">
+                        <h3 class="titulo-ficha">San Bernardo</h3>
+                    </div>
+                    <div class="row">
+                        <img src="img/sanbernardo.jpg" class="imagen-tarjeta" alt="">
+                        <p class="caracteristicas-ficha">Tamaño mediano.<br> peso 9 a 11 Kg.<br> Origen: Inglaterra.</p>
+                    </div>
+                    <div id="calificacion" class="row texto-calificacion-ficha">
+                        Atención:
+                        <span class="estrellas-tarjetas">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </span> <br>Energía:
+                        <span class="estrellas-tarjetas">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </span><br> Obedencia:
+                        <span class="estrellas-tarjetas">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </span class="estrellas-tarjetas">
+                    </div>
+                    <h4 class="row justify-content-center titulo-descripcion-tarjeta">Descripción de la raza.</h4>
+                    <p class="row texto-descripcion-tarjeta">
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam id commodi eius dolor natus accusamus,
+                        eum distinctio at enim obcaecati.
+                    </p>
+                    <div class="row  justify-content-center ">
+                        <div class="col- 4 boton-informacion-tarjeta">
+                            <a href="#"> Más Información</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+<div class="col-12 col-md-5 caja-tarjeta wow bounceInLeft" id="tarjeta">
+                <div class="container">
+                    <div class="row col-12 justify-content-center">
+                        <h3 class="titulo-ficha">Shitzu</h3>
+                    </div>
+                    <div class="row">
+                        <img src="img/shitzu.jpg" class="imagen-tarjeta" alt="">
+                        <p class="caracteristicas-ficha">Tamaño mediano.<br> peso 9 a 11 Kg.<br> Origen: Inglaterra.</p>
+                    </div>
+                    <div id="calificacion" class="row texto-calificacion-ficha">
+                        Atención:
+                        <span class="estrellas-tarjetas">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </span> <br>Energía:
+                        <span class="estrellas-tarjetas">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </span><br> Obedencia:
+                        <span class="estrellas-tarjetas">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </span class="estrellas-tarjetas">
+                    </div>
+                    <h4 class="row justify-content-center titulo-descripcion-tarjeta">Descripción de la raza.</h4>
+                    <p class="row texto-descripcion-tarjeta">
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam id commodi eius dolor natus accusamus,
+                        eum distinctio at enim obcaecati.
+                    </p>
+                    <div class="row  justify-content-center ">
+                        <div class="col- 4 boton-informacion-tarjeta">
+                            <a href="#"> Más Información</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+<div class="col-12 col-md-5 caja-tarjeta wow bounceInRight" id="tarjeta">
+                <div class="container">
+                    <div class="row col-12 justify-content-center">
+                        <h3 class="titulo-ficha">schnauzer</h3>
+                    </div>
+                    <div class="row">
+                        <img src="img/snauzer.jpg" class="imagen-tarjeta" alt="">
+                        <p class="caracteristicas-ficha">Tamaño mediano.<br> peso 9 a 11 Kg.<br> Origen: Inglaterra.</p>
+                    </div>
+                    <div id="calificacion" class="row texto-calificacion-ficha">
+                        Atención:
+                        <span class="estrellas-tarjetas">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </span> <br>Energía:
+                        <span class="estrellas-tarjetas">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </span><br> Obedencia:
+                        <span class="estrellas-tarjetas">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </span class="estrellas-tarjetas">
+                    </div>
+                    <h4 class="row justify-content-center titulo-descripcion-tarjeta">Descripción de la raza.</h4>
+                    <p class="row texto-descripcion-tarjeta">
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam id commodi eius dolor natus accusamus,
+                        eum distinctio at enim obcaecati.
+                    </p>
+                    <div class="row  justify-content-center ">
+                        <div class="col- 4 boton-informacion-tarjeta">
+                            <a href="#"> Más Información</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+<div class="col-12 col-md-5 caja-tarjeta wow bounceInLeft" id="tarjeta">
+                <div class="container">
+                    <div class="row col-12 justify-content-center">
+                        <h3 class="titulo-ficha">yorkshire</h3>
+                    </div>
+                    <div class="row">
+                        <img src="img/york.jpg" class="imagen-tarjeta" alt="">
+                        <p class="caracteristicas-ficha">Tamaño mediano.<br> peso 9 a 11 Kg.<br> Origen: Inglaterra.</p>
+                    </div>
+                    <div id="calificacion" class="row texto-calificacion-ficha">
+                        Atención:
+                        <span class="estrellas-tarjetas">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </span> <br>Energía:
+                        <span class="estrellas-tarjetas">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </span><br> Obedencia:
+                        <span class="estrellas-tarjetas">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </span class="estrellas-tarjetas">
+                    </div>
+                    <h4 class="row justify-content-center titulo-descripcion-tarjeta">Descripción de la raza.</h4>
+                    <p class="row texto-descripcion-tarjeta">
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam id commodi eius dolor natus accusamus,
+                        eum distinctio at enim obcaecati.
+                    </p>
+                    <div class="row  justify-content-center ">
+                        <div class="col- 4 boton-informacion-tarjeta">
+                            <a href="#"> Más Información</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <aside class=" container enlances-inferior">
+        <div id="clasificacion" class="row">
+            <div id="item1" class="col-12 col-md-5 listado-final">
+                <h3>Razas Pequeñas</h3>
+                <ul>
+                    <li><a href="#">Pug</a></li>
+                    <li><a href="#">Pomeriana</a></li>
+                    <li><a href="#">Chihuahua</a></li>
+                    <li><a href="#">Yorkshire</a></li>
+                    <li><a href="#">Shitzu</a></li>
+                </ul>
+            </div>
+<div id="item2" class="col-12 col-md-5 listado-final">
+                <h3>Razas Medianas</h3>
+                <ul>
+                    <li><a href="#">Labrador</a></li>
+                    <li><a href="#">Boxer</a></li>
+                    <li><a href="#">Husky</a></li>
+                    <li><a href="#">Pit Bull</a></li>
+                    <li><a href="#">Bulldog</a></li>
+                </ul>
+            </div>
+<div id="item3" class="col-12 col-md-5 listado-final">
+                <h3>Razas Grandes</h3>
+                <ul>
+                    <li><a href="#">Akita</a></li>
+                    <li><a href="#">Alaskan Malamute</a></li>
+                    <li><a href="#">Border Collie</a></li>
+                    <li><a href="#">Collie</a></li>
+                    <li><a href="#">Dalmata</a></li>
+                </ul>
+            </div>
+<div id="item4" class="col-12 col-md-5 listado-final">
+                <h3>Razas Gigantes</h3>
+                <ul>
+                    <li><a href="#">Alano</a></li>
+                    <li><a href="#">Bullmastiff </a></li>
+                    <li><a href="#">Deerhound </a></li>
+                    <li><a href="#">Dogo Español</a></li>
+                    <li><a href="#">Greyhound</a></li>
+                </ul>
+
+            </div>
+        </div>
+    </aside>
+<footer class="container  pie">
+    <p class="row justify-content-center col-12  direccion">Enrique Pestalozzi 311, Col del Maestro, 68010 Oaxaca, Oax.</p>
+    <p class="row justify-content-center col-12  derechos">Derechos Reservados 2018</p>
+</footer>
+</body>
+
+</html>
